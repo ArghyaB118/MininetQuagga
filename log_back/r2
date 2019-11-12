@@ -1,0 +1,81 @@
+initialization at timestamp = 1524512411.7
+Distance(Dest='r1', Cost=10, Next='r1')
+Distance(Dest='r4', Cost=4, Next='r4')
+Distance(Dest='h1', Cost=9999, Next='')
+Distance(Dest='h2', Cost=9999, Next='')
+Distance(Dest='r3', Cost=9999, Next='')
+
+r2 is listening at port 6666
+timestamp = 1524512411.7
+
+
+r2 received distance vector from r4
+update my DV at timestamp = 1524512411.72
+Distance(Dest='r1', Cost=10, Next='r1')
+Distance(Dest='r4', Cost=4, Next='r4')
+Distance(Dest='h1', Cost=9999, Next='')
+Distance(Dest='h2', Cost=6, Next='r4')
+Distance(Dest='r3', Cost=9, Next='r4')
+
+
+
+r2 received distance vector from r1
+update my DV at timestamp = 1524512411.74
+Distance(Dest='r1', Cost=10, Next='r1')
+Distance(Dest='r4', Cost=4, Next='r4')
+Distance(Dest='h2', Cost=6, Next='r4')
+Distance(Dest='r3', Cost=9, Next='r4')
+Distance(Dest='h1', Cost=12, Next='r1')
+
+
+
+r2 received distance vector from r1
+update my DV at timestamp = 1524512411.75
+Distance(Dest='r1', Cost=10, Next='r1')
+Distance(Dest='r4', Cost=4, Next='r4')
+Distance(Dest='h2', Cost=6, Next='r4')
+Distance(Dest='r3', Cost=9, Next='r4')
+Distance(Dest='h1', Cost=12, Next='r1')
+
+
+
+r2 received distance vector from r4
+update my DV at timestamp = 1524512411.75
+Distance(Dest='r1', Cost=10, Next='r1')
+Distance(Dest='r4', Cost=4, Next='r4')
+Distance(Dest='h2', Cost=6, Next='r4')
+Distance(Dest='r3', Cost=9, Next='r4')
+Distance(Dest='h1', Cost=12, Next='r1')
+
+
+
+r2 received distance vector from r1
+update my DV at timestamp = 1524512411.75
+Distance(Dest='r1', Cost=10, Next='r1')
+Distance(Dest='r4', Cost=4, Next='r4')
+Distance(Dest='h2', Cost=6, Next='r4')
+Distance(Dest='r3', Cost=9, Next='r4')
+Distance(Dest='h1', Cost=12, Next='r1')
+
+r2 successfully send dv to neighbors
+
+
+r2 received distance vector from r4
+update my DV at timestamp = 1524512411.76
+Distance(Dest='r1', Cost=10, Next='r1')
+Distance(Dest='r4', Cost=4, Next='r4')
+Distance(Dest='h2', Cost=6, Next='r4')
+Distance(Dest='r3', Cost=9, Next='r4')
+Distance(Dest='h1', Cost=12, Next='r1')
+
+r2 successfully send dv to neighbors
+
+
+r2 received distance vector from r4
+update my DV at timestamp = 1524512411.77
+Distance(Dest='r1', Cost=10, Next='r1')
+Distance(Dest='r4', Cost=4, Next='r4')
+Distance(Dest='h2', Cost=6, Next='r4')
+Distance(Dest='r3', Cost=9, Next='r4')
+Distance(Dest='h1', Cost=12, Next='r1')
+
